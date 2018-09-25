@@ -1,376 +1,408 @@
 {
   "assetsByChunkName": {
-    "path---docs-components-table-html": [
-      "path---docs-components-table-html-e56c7729655c7d69699e.js",
-      "path---docs-components-table-html-e56c7729655c7d69699e.js.map"
-    ],
     "component---src-pages-try-html-js": [
       "component---src-pages-try-html-js-e2e473a6be4fd543e431.js",
       "component---src-pages-try-html-js-e2e473a6be4fd543e431.js.map"
     ],
+    "path---docs-components-tabs-html": [
+      "path---docs-components-tabs-html-e1a7581573f6f04560aa.js",
+      "path---docs-components-tabs-html-e1a7581573f6f04560aa.js.map"
+    ],
     "path---docs-css-framework-page-examples-card-view-template-html": [
-      "path---docs-css-framework-page-examples-card-view-template-html-1a8092e838e67f2eec70.js",
-      "path---docs-css-framework-page-examples-card-view-template-html-1a8092e838e67f2eec70.js.map"
+      "path---docs-css-framework-page-examples-card-view-template-html-f606ee89eb1a4adbe47e.js",
+      "path---docs-css-framework-page-examples-card-view-template-html-f606ee89eb1a4adbe47e.js.map"
     ],
     "path---docs-components-charts-basic-line-chart-html": [
-      "path---docs-components-charts-basic-line-chart-html-b2622199cd5f9f5fcb0d.js",
-      "path---docs-components-charts-basic-line-chart-html-b2622199cd5f9f5fcb0d.js.map"
+      "path---docs-components-charts-basic-line-chart-html-e04751c13b793efd7239.js",
+      "path---docs-components-charts-basic-line-chart-html-e04751c13b793efd7239.js.map"
+    ],
+    "path---docs-components-forms-text-input-group-html": [
+      "path---docs-components-forms-text-input-group-html-fc5b68e81b03ab5d2752.js",
+      "path---docs-components-forms-text-input-group-html-fc5b68e81b03ab5d2752.js.map"
     ],
     "path---docs-components-icons-html": [
-      "path---docs-components-icons-html-6db305eac64377881c14.js",
-      "path---docs-components-icons-html-6db305eac64377881c14.js.map"
+      "path---docs-components-icons-html-c90617b9839ee8fe9841.js",
+      "path---docs-components-icons-html-c90617b9839ee8fe9841.js.map"
     ],
     "path---docs-get-started-clay-html": [
-      "path---docs-get-started-clay-html-1d7457c1cf7e53d93805.js",
-      "path---docs-get-started-clay-html-1d7457c1cf7e53d93805.js.map"
+      "path---docs-get-started-clay-html-93b733cbd98968e413ca.js",
+      "path---docs-get-started-clay-html-93b733cbd98968e413ca.js.map"
+    ],
+    "path---docs-components-table-table-html": [
+      "path---docs-components-table-table-html-96277ab3e0828a8a3d17.js",
+      "path---docs-components-table-table-html-96277ab3e0828a8a3d17.js.map"
     ],
     "path---docs-css-framework-satellites-panels-html": [
-      "path---docs-css-framework-satellites-panels-html-a456683668192e9260a5.js",
-      "path---docs-css-framework-satellites-panels-html-a456683668192e9260a5.js.map"
+      "path---docs-css-framework-satellites-panels-html-64ae1647169954c5f105.js",
+      "path---docs-css-framework-satellites-panels-html-64ae1647169954c5f105.js.map"
     ],
-    "path---docs-components-forms-form-custom-html": [
-      "path---docs-components-forms-form-custom-html-25dea4b6a430c57f24b0.js",
-      "path---docs-components-forms-form-custom-html-25dea4b6a430c57f24b0.js.map"
+    "path---docs-css-framework-satellites-images-aspect-ratio-html": [
+      "path---docs-css-framework-satellites-images-aspect-ratio-html-9fac625d9dae6afe4ad8.js",
+      "path---docs-css-framework-satellites-images-aspect-ratio-html-9fac625d9dae6afe4ad8.js.map"
     ],
     "path---docs-components-charts-basic-bubble-chart-html": [
-      "path---docs-components-charts-basic-bubble-chart-html-2f2cd93f8381e4cdbc62.js",
-      "path---docs-components-charts-basic-bubble-chart-html-2f2cd93f8381e4cdbc62.js.map"
+      "path---docs-components-charts-basic-bubble-chart-html-11416cd7b939dc2bcb01.js",
+      "path---docs-components-charts-basic-bubble-chart-html-11416cd7b939dc2bcb01.js.map"
     ],
     "path---docs-components-charts-basic-geomap-chart-html": [
-      "path---docs-components-charts-basic-geomap-chart-html-6d2ef31873db902b0c38.js",
-      "path---docs-components-charts-basic-geomap-chart-html-6d2ef31873db902b0c38.js.map"
+      "path---docs-components-charts-basic-geomap-chart-html-491e184c606037fbc92d.js",
+      "path---docs-components-charts-basic-geomap-chart-html-491e184c606037fbc92d.js.map"
     ],
     "path---docs-get-started-introduction-html": [
-      "path---docs-get-started-introduction-html-2fd0f27380ea6db94b24.js",
-      "path---docs-get-started-introduction-html-2fd0f27380ea6db94b24.js.map"
+      "path---docs-get-started-introduction-html-b9628d85bbfc8a34580c.js",
+      "path---docs-get-started-introduction-html-b9628d85bbfc8a34580c.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-7478fadb878de23e0b88.js",
       "component---src-pages-index-js-7478fadb878de23e0b88.js.map"
     ],
     "path---docs-components-toolbars-management-toolbar-html": [
-      "path---docs-components-toolbars-management-toolbar-html-c68d7be073592a5bbeea.js",
-      "path---docs-components-toolbars-management-toolbar-html-c68d7be073592a5bbeea.js.map"
+      "path---docs-components-toolbars-management-toolbar-html-14cc22ff2a8e134d150e.js",
+      "path---docs-components-toolbars-management-toolbar-html-14cc22ff2a8e134d150e.js.map"
     ],
     "path---docs-css-framework-page-examples-list-view-template-html": [
-      "path---docs-css-framework-page-examples-list-view-template-html-18cf7b8e6adbb5efc987.js",
-      "path---docs-css-framework-page-examples-list-view-template-html-18cf7b8e6adbb5efc987.js.map"
-    ],
-    "path---docs-components-toggle-switch-html": [
-      "path---docs-components-toggle-switch-html-cde73cc9a257fb25ceef.js",
-      "path---docs-components-toggle-switch-html-cde73cc9a257fb25ceef.js.map"
+      "path---docs-css-framework-page-examples-list-view-template-html-bf5069906f4f18af67ea.js",
+      "path---docs-css-framework-page-examples-list-view-template-html-bf5069906f4f18af67ea.js.map"
     ],
     "path---docs-components-badges-html": [
-      "path---docs-components-badges-html-c15407775abd34b18122.js",
-      "path---docs-components-badges-html-c15407775abd34b18122.js.map"
-    ],
-    "path---docs-components-navigation-nav-html": [
-      "path---docs-components-navigation-nav-html-1c352568bb2e0581b5e8.js",
-      "path---docs-components-navigation-nav-html-1c352568bb2e0581b5e8.js.map"
+      "path---docs-components-badges-html-90a75b2a570cbea70c1f.js",
+      "path---docs-components-badges-html-90a75b2a570cbea70c1f.js.map"
     ],
     "path---docs-components-charts-advanced-data-color-html": [
-      "path---docs-components-charts-advanced-data-color-html-61e98cd7df8d68006e83.js",
-      "path---docs-components-charts-advanced-data-color-html-61e98cd7df8d68006e83.js.map"
+      "path---docs-components-charts-advanced-data-color-html-0f158b10f5d459e25fde.js",
+      "path---docs-components-charts-advanced-data-color-html-0f158b10f5d459e25fde.js.map"
     ],
-    "path---docs-components-button-group-html": [
-      "path---docs-components-button-group-html-45b770b8b3711f5d10fe.js",
-      "path---docs-components-button-group-html-45b770b8b3711f5d10fe.js.map"
+    "path---docs-css-framework-satellites-button-group-html": [
+      "path---docs-css-framework-satellites-button-group-html-2025c4db79e235a993a4.js",
+      "path---docs-css-framework-satellites-button-group-html-2025c4db79e235a993a4.js.map"
     ],
     "path---docs-components-forms-multi-step-form-simplified-html": [
-      "path---docs-components-forms-multi-step-form-simplified-html-f02c4fe704f50ac449b9.js",
-      "path---docs-components-forms-multi-step-form-simplified-html-f02c4fe704f50ac449b9.js.map"
+      "path---docs-components-forms-multi-step-form-simplified-html-856a107fa02352504210.js",
+      "path---docs-components-forms-multi-step-form-simplified-html-856a107fa02352504210.js.map"
     ],
     "path---docs-css-framework-satellites-images-thumbnails-html": [
-      "path---docs-css-framework-satellites-images-thumbnails-html-4e6041ea59f78815c874.js",
-      "path---docs-css-framework-satellites-images-thumbnails-html-4e6041ea59f78815c874.js.map"
+      "path---docs-css-framework-satellites-images-thumbnails-html-5f2617edc2ded3cf783e.js",
+      "path---docs-css-framework-satellites-images-thumbnails-html-5f2617edc2ded3cf783e.js.map"
     ],
     "path---docs-components-charts-advanced-regions-html": [
-      "path---docs-components-charts-advanced-regions-html-cc295b37fc045373f07f.js",
-      "path---docs-components-charts-advanced-regions-html-cc295b37fc045373f07f.js.map"
+      "path---docs-components-charts-advanced-regions-html-bcc21b99b9348ee9c146.js",
+      "path---docs-components-charts-advanced-regions-html-bcc21b99b9348ee9c146.js.map"
     ],
     "path---docs-components-cards-html": [
-      "path---docs-components-cards-html-d74aabd46f13bbee328c.js",
-      "path---docs-components-cards-html-d74aabd46f13bbee328c.js.map"
+      "path---docs-components-cards-html-c3a55cb5bc51c17e6cab.js",
+      "path---docs-components-cards-html-c3a55cb5bc51c17e6cab.js.map"
     ],
     "path---docs-components-forms-forms-hierarchy-html": [
-      "path---docs-components-forms-forms-hierarchy-html-d62aa7a1eb42ef4ac263.js",
-      "path---docs-components-forms-forms-hierarchy-html-d62aa7a1eb42ef4ac263.js.map"
+      "path---docs-components-forms-forms-hierarchy-html-4a9b28f1d8ad01f9a93d.js",
+      "path---docs-components-forms-forms-hierarchy-html-4a9b28f1d8ad01f9a93d.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---docs-css-framework-satellites-modals-html": [
-      "path---docs-css-framework-satellites-modals-html-e94242ff4ce11abc5d66.js",
-      "path---docs-css-framework-satellites-modals-html-e94242ff4ce11abc5d66.js.map"
+      "path---docs-css-framework-satellites-modals-html-53acc1484bf32f6ccdcb.js",
+      "path---docs-css-framework-satellites-modals-html-53acc1484bf32f6ccdcb.js.map"
     ],
     "path---docs-css-framework-satellites-progress-bars-html": [
-      "path---docs-css-framework-satellites-progress-bars-html-dc21de45bc7a5f54751c.js",
-      "path---docs-css-framework-satellites-progress-bars-html-dc21de45bc7a5f54751c.js.map"
+      "path---docs-css-framework-satellites-progress-bars-html-540e5d93292a6089378f.js",
+      "path---docs-css-framework-satellites-progress-bars-html-540e5d93292a6089378f.js.map"
     ],
     "path---docs-css-framework-satellites-cards-html": [
-      "path---docs-css-framework-satellites-cards-html-832ed678e7f0afb06f4a.js",
-      "path---docs-css-framework-satellites-cards-html-832ed678e7f0afb06f4a.js.map"
+      "path---docs-css-framework-satellites-cards-html-7de4608b9a87f96cc246.js",
+      "path---docs-css-framework-satellites-cards-html-7de4608b9a87f96cc246.js.map"
     ],
     "path---docs-css-framework-class-helpers-html": [
-      "path---docs-css-framework-class-helpers-html-a20a867e21e93dbb8729.js",
-      "path---docs-css-framework-class-helpers-html-a20a867e21e93dbb8729.js.map"
+      "path---docs-css-framework-class-helpers-html-58fc909b7418ef9171c4.js",
+      "path---docs-css-framework-class-helpers-html-58fc909b7418ef9171c4.js.map"
+    ],
+    "path---docs-components-loading-indicator-html": [
+      "path---docs-components-loading-indicator-html-ec092439a58c8e7a9325.js",
+      "path---docs-components-loading-indicator-html-ec092439a58c8e7a9325.js.map"
     ],
     "path---docs-components-buttons-html": [
-      "path---docs-components-buttons-html-937bef040be93b04aa93.js",
-      "path---docs-components-buttons-html-937bef040be93b04aa93.js.map"
+      "path---docs-components-buttons-html-0045d2e15e3d3e7116d3.js",
+      "path---docs-components-buttons-html-0045d2e15e3d3e7116d3.js.map"
     ],
     "path---docs-components-popovers-html": [
-      "path---docs-components-popovers-html-3070a3bf6330aa3df963.js",
-      "path---docs-components-popovers-html-3070a3bf6330aa3df963.js.map"
+      "path---docs-components-popovers-html-583401a31702135f347a.js",
+      "path---docs-components-popovers-html-583401a31702135f347a.js.map"
     ],
-    "path---docs-components-forms-form-elements-input-groups-html": [
-      "path---docs-components-forms-form-elements-input-groups-html-dacefb4970e5e663d335.js",
-      "path---docs-components-forms-form-elements-input-groups-html-dacefb4970e5e663d335.js.map"
+    "path---docs-components-forms-radio-check-toggle-html": [
+      "path---docs-components-forms-radio-check-toggle-html-05e8ce8d1221f4a2e31b.js",
+      "path---docs-components-forms-radio-check-toggle-html-05e8ce8d1221f4a2e31b.js.map"
     ],
     "path---docs-components-charts-basic-pie-chart-html": [
-      "path---docs-components-charts-basic-pie-chart-html-3eccb0efa15d70de23d1.js",
-      "path---docs-components-charts-basic-pie-chart-html-3eccb0efa15d70de23d1.js.map"
+      "path---docs-components-charts-basic-pie-chart-html-5f5446a0ba5dad0644ec.js",
+      "path---docs-components-charts-basic-pie-chart-html-5f5446a0ba5dad0644ec.js.map"
     ],
     "path---docs-components-charts-advanced-axis-range-html": [
-      "path---docs-components-charts-advanced-axis-range-html-d9f3c83959283df0c8de.js",
-      "path---docs-components-charts-advanced-axis-range-html-d9f3c83959283df0c8de.js.map"
+      "path---docs-components-charts-advanced-axis-range-html-e9d4de127f4d44f17131.js",
+      "path---docs-components-charts-advanced-axis-range-html-e9d4de127f4d44f17131.js.map"
     ],
     "path---docs-components-charts-basic-donut-chart-html": [
-      "path---docs-components-charts-basic-donut-chart-html-af3af26c36f31f438246.js",
-      "path---docs-components-charts-basic-donut-chart-html-af3af26c36f31f438246.js.map"
+      "path---docs-components-charts-basic-donut-chart-html-e66956f1158e4c55e2e0.js",
+      "path---docs-components-charts-basic-donut-chart-html-e66956f1158e4c55e2e0.js.map"
     ],
     "path---docs-components-pagination-html": [
-      "path---docs-components-pagination-html-c5db6463b0e4ff4ccc14.js",
-      "path---docs-components-pagination-html-c5db6463b0e4ff4ccc14.js.map"
+      "path---docs-components-pagination-html-ec7b5a9685acb84d793a.js",
+      "path---docs-components-pagination-html-ec7b5a9685acb84d793a.js.map"
     ],
     "path---docs-components-progress-bars-html": [
-      "path---docs-components-progress-bars-html-f4c4d4c18806bd1375b4.js",
-      "path---docs-components-progress-bars-html-f4c4d4c18806bd1375b4.js.map"
+      "path---docs-components-progress-bars-html-6311ba8890bb3ca67728.js",
+      "path---docs-components-progress-bars-html-6311ba8890bb3ca67728.js.map"
     ],
     "path---docs-css-framework-satellites-dropdowns-html": [
-      "path---docs-css-framework-satellites-dropdowns-html-c7f37a1c9469af2b22c8.js",
-      "path---docs-css-framework-satellites-dropdowns-html-c7f37a1c9469af2b22c8.js.map"
+      "path---docs-css-framework-satellites-dropdowns-html-0fca6d96cde0eea549e7.js",
+      "path---docs-css-framework-satellites-dropdowns-html-0fca6d96cde0eea549e7.js.map"
     ],
     "path---docs-get-started-importing-the-js-component-html": [
-      "path---docs-get-started-importing-the-js-component-html-d9af4f2d03396fefe724.js",
-      "path---docs-get-started-importing-the-js-component-html-d9af4f2d03396fefe724.js.map"
+      "path---docs-get-started-importing-the-js-component-html-5eea3bddc1a560da293d.js",
+      "path---docs-get-started-importing-the-js-component-html-5eea3bddc1a560da293d.js.map"
     ],
     "path---docs-components-stickers-html": [
-      "path---docs-components-stickers-html-729c6fa48ea5016b5eb4.js",
-      "path---docs-components-stickers-html-729c6fa48ea5016b5eb4.js.map"
-    ],
-    "path---docs-components-panels-html": [
-      "path---docs-components-panels-html-09ca251aaa1a955d7e49.js",
-      "path---docs-components-panels-html-09ca251aaa1a955d7e49.js.map"
+      "path---docs-components-stickers-html-3cdca7f6c9bc6c64e47e.js",
+      "path---docs-components-stickers-html-3cdca7f6c9bc6c64e47e.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-5598737c2f22a4be6adf.js",
       "component---src-layouts-index-js-5598737c2f22a4be6adf.js.map"
     ],
     "path---docs-components-alerts-html": [
-      "path---docs-components-alerts-html-f1bbf836aca42ddf7e70.js",
-      "path---docs-components-alerts-html-f1bbf836aca42ddf7e70.js.map"
+      "path---docs-components-alerts-html-ea7646d6390044bfebce.js",
+      "path---docs-components-alerts-html-ea7646d6390044bfebce.js.map"
     ],
     "path---docs-css-framework-satellites-paginations-html": [
-      "path---docs-css-framework-satellites-paginations-html-f1a53c2e0211ad3f8e6a.js",
-      "path---docs-css-framework-satellites-paginations-html-f1a53c2e0211ad3f8e6a.js.map"
+      "path---docs-css-framework-satellites-paginations-html-66f4034df5c566699130.js",
+      "path---docs-css-framework-satellites-paginations-html-66f4034df5c566699130.js.map"
     ],
     "path---docs-components-navigation-breadcrumbs-html": [
-      "path---docs-components-navigation-breadcrumbs-html-4a81c980cc6fc5eaa546.js",
-      "path---docs-components-navigation-breadcrumbs-html-4a81c980cc6fc5eaa546.js.map"
+      "path---docs-components-navigation-breadcrumbs-html-1b7e5db2702dd47b3eb9.js",
+      "path---docs-components-navigation-breadcrumbs-html-1b7e5db2702dd47b3eb9.js.map"
     ],
     "path---docs-components-forms-form-elements-html": [
-      "path---docs-components-forms-form-elements-html-a3f46f92f7d584c750c2.js",
-      "path---docs-components-forms-form-elements-html-a3f46f92f7d584c750c2.js.map"
+      "path---docs-components-forms-form-elements-html-d53bc0eb6c9de9e71bef.js",
+      "path---docs-components-forms-form-elements-html-d53bc0eb6c9de9e71bef.js.map"
     ],
     "path---docs-layout-grid-html": [
-      "path---docs-layout-grid-html-03482a7bdf4f5079edf5.js",
-      "path---docs-layout-grid-html-03482a7bdf4f5079edf5.js.map"
+      "path---docs-layout-grid-html-873878002aa975a00bc0.js",
+      "path---docs-layout-grid-html-873878002aa975a00bc0.js.map"
     ],
     "path---docs-components-navigation-navbar-html": [
-      "path---docs-components-navigation-navbar-html-db0eb6e84d15638105f8.js",
-      "path---docs-components-navigation-navbar-html-db0eb6e84d15638105f8.js.map"
+      "path---docs-components-navigation-navbar-html-2f84b478c4b591873655.js",
+      "path---docs-components-navigation-navbar-html-2f84b478c4b591873655.js.map"
+    ],
+    "path---docs-components-table-inline-edit-table-html": [
+      "path---docs-components-table-inline-edit-table-html-5153cfe24974c69711b4.js",
+      "path---docs-components-table-inline-edit-table-html-5153cfe24974c69711b4.js.map"
     ],
     "path---docs-components-charts-advanced-axis-label-html": [
-      "path---docs-components-charts-advanced-axis-label-html-b04be1efde5371670cd8.js",
-      "path---docs-components-charts-advanced-axis-label-html-b04be1efde5371670cd8.js.map"
+      "path---docs-components-charts-advanced-axis-label-html-a5ad6c1c14742d30cf24.js",
+      "path---docs-components-charts-advanced-axis-label-html-a5ad6c1c14742d30cf24.js.map"
     ],
     "path---docs-components-charts-basic-bar-chart-html": [
-      "path---docs-components-charts-basic-bar-chart-html-c0614068e16cf59a051e.js",
-      "path---docs-components-charts-basic-bar-chart-html-c0614068e16cf59a051e.js.map"
+      "path---docs-components-charts-basic-bar-chart-html-9c68e444cc4b0b1063a3.js",
+      "path---docs-components-charts-basic-bar-chart-html-9c68e444cc4b0b1063a3.js.map"
+    ],
+    "path---docs-components-dataset-display-html": [
+      "path---docs-components-dataset-display-html-d80e442f9786903f73f5.js",
+      "path---docs-components-dataset-display-html-d80e442f9786903f73f5.js.map"
     ],
     "path---docs-components-charts-advanced-x-axis-tick-formatting-html": [
-      "path---docs-components-charts-advanced-x-axis-tick-formatting-html-fc43ae88789bcaf9f41d.js",
-      "path---docs-components-charts-advanced-x-axis-tick-formatting-html-fc43ae88789bcaf9f41d.js.map"
+      "path---docs-components-charts-advanced-x-axis-tick-formatting-html-bd5ddce9e88832cf8bbe.js",
+      "path---docs-components-charts-advanced-x-axis-tick-formatting-html-bd5ddce9e88832cf8bbe.js.map"
     ],
     "path---docs-css-framework-satellites-tables-html": [
-      "path---docs-css-framework-satellites-tables-html-44ede6847c7d0d44be7a.js",
-      "path---docs-css-framework-satellites-tables-html-44ede6847c7d0d44be7a.js.map"
+      "path---docs-css-framework-satellites-tables-html-21ac80d8dae2fa7c91ed.js",
+      "path---docs-css-framework-satellites-tables-html-21ac80d8dae2fa7c91ed.js.map"
     ],
     "path---docs-components-navigation-vertical-navigation-html": [
-      "path---docs-components-navigation-vertical-navigation-html-350fb1503f347aaf4036.js",
-      "path---docs-components-navigation-vertical-navigation-html-350fb1503f347aaf4036.js.map"
+      "path---docs-components-navigation-vertical-navigation-html-ed1571d5b4177c6c8361.js",
+      "path---docs-components-navigation-vertical-navigation-html-ed1571d5b4177c6c8361.js.map"
     ],
     "path---docs-components-labels-html": [
-      "path---docs-components-labels-html-f26733090f0be21bab2e.js",
-      "path---docs-components-labels-html-f26733090f0be21bab2e.js.map"
-    ],
-    "path---docs-components-forms-form-elements-validation-html": [
-      "path---docs-components-forms-form-elements-validation-html-59644de7ef2aa740a914.js",
-      "path---docs-components-forms-form-elements-validation-html-59644de7ef2aa740a914.js.map"
+      "path---docs-components-labels-html-2408240ec92c206fa61e.js",
+      "path---docs-components-labels-html-2408240ec92c206fa61e.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---docs-components-charts-basic-spline-chart-html": [
-      "path---docs-components-charts-basic-spline-chart-html-7e3266fbf8c9fc193ae3.js",
-      "path---docs-components-charts-basic-spline-chart-html-7e3266fbf8c9fc193ae3.js.map"
+      "path---docs-components-charts-basic-spline-chart-html-b9d4faa4f39a542591d1.js",
+      "path---docs-components-charts-basic-spline-chart-html-b9d4faa4f39a542591d1.js.map"
     ],
-    "path---docs-components-info-panel-html": [
-      "path---docs-components-info-panel-html-c37f9307d091694febce.js",
-      "path---docs-components-info-panel-html-c37f9307d091694febce.js.map"
+    "path---docs-css-framework-satellites-timelines-html": [
+      "path---docs-css-framework-satellites-timelines-html-c9330a112c83f420e516.js",
+      "path---docs-css-framework-satellites-timelines-html-c9330a112c83f420e516.js.map"
+    ],
+    "path---docs-components-forms-text-input-variations-html": [
+      "path---docs-components-forms-text-input-variations-html-aa5a19d422605dfe16c8.js",
+      "path---docs-components-forms-text-input-variations-html-aa5a19d422605dfe16c8.js.map"
     ],
     "path---docs-components-modals-html": [
-      "path---docs-components-modals-html-609cc1349120824cf9be.js",
-      "path---docs-components-modals-html-609cc1349120824cf9be.js.map"
+      "path---docs-components-modals-html-01eb8cbc0ee8ee2cf333.js",
+      "path---docs-components-modals-html-01eb8cbc0ee8ee2cf333.js.map"
     ],
     "path---docs-css-framework-page-examples-table-view-template-html": [
-      "path---docs-css-framework-page-examples-table-view-template-html-7d83da3ab0edab4356ce.js",
-      "path---docs-css-framework-page-examples-table-view-template-html-7d83da3ab0edab4356ce.js.map"
+      "path---docs-css-framework-page-examples-table-view-template-html-434a7dee4ef9518ff919.js",
+      "path---docs-css-framework-page-examples-table-view-template-html-434a7dee4ef9518ff919.js.map"
+    ],
+    "path---docs-components-link-html": [
+      "path---docs-components-link-html-173002ab0c2d5d85f8c3.js",
+      "path---docs-components-link-html-173002ab0c2d5d85f8c3.js.map"
+    ],
+    "path---docs-css-framework-satellites-nav-html": [
+      "path---docs-css-framework-satellites-nav-html-8740012ea6e670e1eaf7.js",
+      "path---docs-css-framework-satellites-nav-html-8740012ea6e670e1eaf7.js.map"
     ],
     "path---docs-css-framework-scss-html": [
-      "path---docs-css-framework-scss-html-9adfe881c4fd191f0291.js",
-      "path---docs-css-framework-scss-html-9adfe881c4fd191f0291.js.map"
-    ],
-    "path---docs-components-images-aspect-ratio-html": [
-      "path---docs-components-images-aspect-ratio-html-fd8ee1c0fec0e80d369d.js",
-      "path---docs-components-images-aspect-ratio-html-fd8ee1c0fec0e80d369d.js.map"
+      "path---docs-css-framework-scss-html-d9ac7ba62854cb43e744.js",
+      "path---docs-css-framework-scss-html-d9ac7ba62854cb43e744.js.map"
     ],
     "path---docs-news-index-html": [
-      "path---docs-news-index-html-73b525c487a7f07247c3.js",
-      "path---docs-news-index-html-73b525c487a7f07247c3.js.map"
-    ],
-    "path---docs-components-navigation-nav-underline-html": [
-      "path---docs-components-navigation-nav-underline-html-251ee3392a27f832a73e.js",
-      "path---docs-components-navigation-nav-underline-html-251ee3392a27f832a73e.js.map"
+      "path---docs-news-index-html-5602cab2cdea3104e3f3.js",
+      "path---docs-news-index-html-5602cab2cdea3104e3f3.js.map"
     ],
     "commons": [
       "commons-2ec41993aa3e69eef31d.js",
       "commons-2ec41993aa3e69eef31d.js.map"
     ],
+    "path---docs-css-framework-satellites-forms-form-elements-validation-html": [
+      "path---docs-css-framework-satellites-forms-form-elements-validation-html-7e626790d9908fe18279.js",
+      "path---docs-css-framework-satellites-forms-form-elements-validation-html-7e626790d9908fe18279.js.map"
+    ],
+    "path---docs-css-framework-satellites-forms-form-elements-html": [
+      "path---docs-css-framework-satellites-forms-form-elements-html-96ab7f738c2bb17a2e05.js",
+      "path---docs-css-framework-satellites-forms-form-elements-html-96ab7f738c2bb17a2e05.js.map"
+    ],
     "path---docs-css-framework-satellites-tbar-html": [
-      "path---docs-css-framework-satellites-tbar-html-3a5e32fa9150668c5292.js",
-      "path---docs-css-framework-satellites-tbar-html-3a5e32fa9150668c5292.js.map"
+      "path---docs-css-framework-satellites-tbar-html-76400b3f6dceabbc3a80.js",
+      "path---docs-css-framework-satellites-tbar-html-76400b3f6dceabbc3a80.js.map"
+    ],
+    "path---docs-components-forms-text-input-localizable-html": [
+      "path---docs-components-forms-text-input-localizable-html-3eff353a40dd48ee315e.js",
+      "path---docs-components-forms-text-input-localizable-html-3eff353a40dd48ee315e.js.map"
     ],
     "path---docs-css-framework-page-examples-users-and-organizations-html": [
-      "path---docs-css-framework-page-examples-users-and-organizations-html-9d5498afb04fc059aba3.js",
-      "path---docs-css-framework-page-examples-users-and-organizations-html-9d5498afb04fc059aba3.js.map"
+      "path---docs-css-framework-page-examples-users-and-organizations-html-def3180a9c8a0ad7e744.js",
+      "path---docs-css-framework-page-examples-users-and-organizations-html-def3180a9c8a0ad7e744.js.map"
     ],
     "path---docs-components-charts-advanced-grid-lines-html": [
-      "path---docs-components-charts-advanced-grid-lines-html-d1d547758db8257359b8.js",
-      "path---docs-components-charts-advanced-grid-lines-html-d1d547758db8257359b8.js.map"
+      "path---docs-components-charts-advanced-grid-lines-html-0c3d6c439a4b1a212ea9.js",
+      "path---docs-components-charts-advanced-grid-lines-html-0c3d6c439a4b1a212ea9.js.map"
+    ],
+    "path---docs-components-forms-text-input-html": [
+      "path---docs-components-forms-text-input-html-64e9b1b0e0901135f05e.js",
+      "path---docs-components-forms-text-input-html-64e9b1b0e0901135f05e.js.map"
     ],
     "path---docs-css-framework-satellites-stickers-html": [
-      "path---docs-css-framework-satellites-stickers-html-beea4b2aaa3ad426f344.js",
-      "path---docs-css-framework-satellites-stickers-html-beea4b2aaa3ad426f344.js.map"
+      "path---docs-css-framework-satellites-stickers-html-dde169a35faee77b8396.js",
+      "path---docs-css-framework-satellites-stickers-html-dde169a35faee77b8396.js.map"
     ],
     "path---docs-components-charts-advanced-predictive-forecasting-html": [
-      "path---docs-components-charts-advanced-predictive-forecasting-html-e2cddde96227974ba974.js",
-      "path---docs-components-charts-advanced-predictive-forecasting-html-e2cddde96227974ba974.js.map"
+      "path---docs-components-charts-advanced-predictive-forecasting-html-235169b849110a021b86.js",
+      "path---docs-components-charts-advanced-predictive-forecasting-html-235169b849110a021b86.js.map"
     ],
-    "path---docs-components-timelines-html": [
-      "path---docs-components-timelines-html-55a43ac0e9e8b862e629.js",
-      "path---docs-components-timelines-html-55a43ac0e9e8b862e629.js.map"
+    "path---docs-components-forms-selector-html": [
+      "path---docs-components-forms-selector-html-59fa258022f241593774.js",
+      "path---docs-components-forms-selector-html-59fa258022f241593774.js.map"
     ],
     "path---docs-components-forms-multi-step-form-html": [
-      "path---docs-components-forms-multi-step-form-html-6f0f8a92278144ad3921.js",
-      "path---docs-components-forms-multi-step-form-html-6f0f8a92278144ad3921.js.map"
+      "path---docs-components-forms-multi-step-form-html-77b83691a227824f6b70.js",
+      "path---docs-components-forms-multi-step-form-html-77b83691a227824f6b70.js.map"
     ],
     "path---docs-components-charts-basic-scatter-chart-html": [
-      "path---docs-components-charts-basic-scatter-chart-html-77ec6a9c1b66ea528fb1.js",
-      "path---docs-components-charts-basic-scatter-chart-html-77ec6a9c1b66ea528fb1.js.map"
+      "path---docs-components-charts-basic-scatter-chart-html-aeddfbed924cad4c0c10.js",
+      "path---docs-components-charts-basic-scatter-chart-html-aeddfbed924cad4c0c10.js.map"
+    ],
+    "path---docs-components-forms-forms-navigation-html": [
+      "path---docs-components-forms-forms-navigation-html-87539e0da730f130bd32.js",
+      "path---docs-components-forms-forms-navigation-html-87539e0da730f130bd32.js.map"
     ],
     "app": [
-      "app-a68e19aba6aadb062eee.js",
-      "app-a68e19aba6aadb062eee.js.map"
+      "app-7dfd70a57db4e0981d61.js",
+      "app-7dfd70a57db4e0981d61.js.map"
     ],
     "path---docs-get-started-using-js-components-with-metal-html": [
-      "path---docs-get-started-using-js-components-with-metal-html-8ef69960a80a87425853.js",
-      "path---docs-get-started-using-js-components-with-metal-html-8ef69960a80a87425853.js.map"
+      "path---docs-get-started-using-js-components-with-metal-html-ea3d78df7eb5c68572f8.js",
+      "path---docs-get-started-using-js-components-with-metal-html-ea3d78df7eb5c68572f8.js.map"
     ],
     "path---docs-components-list-html": [
-      "path---docs-components-list-html-ee3ba6132ebf84574e7c.js",
-      "path---docs-components-list-html-ee3ba6132ebf84574e7c.js.map"
+      "path---docs-components-list-html-7e5283a6a924799ee352.js",
+      "path---docs-components-list-html-7e5283a6a924799ee352.js.map"
     ],
     "component---src-templates-docs-js": [
       "component---src-templates-docs-js-6394172aa8e011e8b091.js",
       "component---src-templates-docs-js-6394172aa8e011e8b091.js.map"
     ],
     "path---docs-get-started-web-components-html": [
-      "path---docs-get-started-web-components-html-d5e3d53da9d7263346b0.js",
-      "path---docs-get-started-web-components-html-d5e3d53da9d7263346b0.js.map"
+      "path---docs-get-started-web-components-html-a0b87660dbf60d6c132f.js",
+      "path---docs-get-started-web-components-html-a0b87660dbf60d6c132f.js.map"
     ],
     "path---docs-components-charts-basic-combination-chart-html": [
-      "path---docs-components-charts-basic-combination-chart-html-f75eab6278fb649fe106.js",
-      "path---docs-components-charts-basic-combination-chart-html-f75eab6278fb649fe106.js.map"
+      "path---docs-components-charts-basic-combination-chart-html-15d2381ec93bfbce5910.js",
+      "path---docs-components-charts-basic-combination-chart-html-15d2381ec93bfbce5910.js.map"
     ],
-    "path---docs-components-header-html": [
-      "path---docs-components-header-html-a50cdc9f03028f35d635.js",
-      "path---docs-components-header-html-a50cdc9f03028f35d635.js.map"
+    "path---docs-components-sidebar-info-panel-html": [
+      "path---docs-components-sidebar-info-panel-html-084117a3158281f3f957.js",
+      "path---docs-components-sidebar-info-panel-html-084117a3158281f3f957.js.map"
     ],
     "path---docs-components-dropdowns-html": [
-      "path---docs-components-dropdowns-html-67edf973552ecd97f159.js",
-      "path---docs-components-dropdowns-html-67edf973552ecd97f159.js.map"
+      "path---docs-components-dropdowns-html-c81d641c2a1778fe1eb3.js",
+      "path---docs-components-dropdowns-html-c81d641c2a1778fe1eb3.js.map"
     ],
     "path---try-html": [
       "path---try-html-98f3166c695879c7531e.js",
       "path---try-html-98f3166c695879c7531e.js.map"
     ],
+    "path---docs-css-framework-satellites-forms-form-elements-input-groups-html": [
+      "path---docs-css-framework-satellites-forms-form-elements-input-groups-html-9c562c873d19e21f45e6.js",
+      "path---docs-css-framework-satellites-forms-form-elements-input-groups-html-9c562c873d19e21f45e6.js.map"
+    ],
     "path---docs-layout-typography-html": [
-      "path---docs-layout-typography-html-3cac71597b81f904ebdb.js",
-      "path---docs-layout-typography-html-3cac71597b81f904ebdb.js.map"
+      "path---docs-layout-typography-html-8e4951ad94bbc9b3c1e8.js",
+      "path---docs-layout-typography-html-8e4951ad94bbc9b3c1e8.js.map"
     ],
     "path---docs-components-charts-basic-gauge-chart-html": [
-      "path---docs-components-charts-basic-gauge-chart-html-4f2ef09459d8f44b063e.js",
-      "path---docs-components-charts-basic-gauge-chart-html-4f2ef09459d8f44b063e.js.map"
+      "path---docs-components-charts-basic-gauge-chart-html-83cb96777f26b9fee291.js",
+      "path---docs-components-charts-basic-gauge-chart-html-83cb96777f26b9fee291.js.map"
     ],
     "path---docs-components-charts-basic-step-chart-html": [
-      "path---docs-components-charts-basic-step-chart-html-2b033684b6802069fdfd.js",
-      "path---docs-components-charts-basic-step-chart-html-2b033684b6802069fdfd.js.map"
+      "path---docs-components-charts-basic-step-chart-html-64ef57bdbd6437a0b29d.js",
+      "path---docs-components-charts-basic-step-chart-html-64ef57bdbd6437a0b29d.js.map"
     ],
     "path---docs-css-framework-satellites-alert-html": [
-      "path---docs-css-framework-satellites-alert-html-a832d5e2b1c7ab230ddc.js",
-      "path---docs-css-framework-satellites-alert-html-a832d5e2b1c7ab230ddc.js.map"
+      "path---docs-css-framework-satellites-alert-html-033f87bbf4a2403915ed.js",
+      "path---docs-css-framework-satellites-alert-html-033f87bbf4a2403915ed.js.map"
     ],
     "path---docs-css-framework-satellites-toggle-switch-html": [
-      "path---docs-css-framework-satellites-toggle-switch-html-c9f6d31ed6d9efb721df.js",
-      "path---docs-css-framework-satellites-toggle-switch-html-c9f6d31ed6d9efb721df.js.map"
-    ],
-    "path---docs-components-navigation-nav-tabs-html": [
-      "path---docs-components-navigation-nav-tabs-html-c8fe34733d0fcf2e4e5d.js",
-      "path---docs-components-navigation-nav-tabs-html-c8fe34733d0fcf2e4e5d.js.map"
+      "path---docs-css-framework-satellites-toggle-switch-html-cab45b025afb05333fd8.js",
+      "path---docs-css-framework-satellites-toggle-switch-html-cab45b025afb05333fd8.js.map"
     ],
     "path---docs-css-framework-satellites-popovers-html": [
-      "path---docs-css-framework-satellites-popovers-html-583fd5eae5cfb196bf31.js",
-      "path---docs-css-framework-satellites-popovers-html-583fd5eae5cfb196bf31.js.map"
+      "path---docs-css-framework-satellites-popovers-html-88f29edfe70c30ee4c11.js",
+      "path---docs-css-framework-satellites-popovers-html-88f29edfe70c30ee4c11.js.map"
     ],
     "path---docs-css-framework-satellites-links-html": [
-      "path---docs-css-framework-satellites-links-html-78d3c84be0e06bfc960c.js",
-      "path---docs-css-framework-satellites-links-html-78d3c84be0e06bfc960c.js.map"
+      "path---docs-css-framework-satellites-links-html-b1e71ac84f0521050645.js",
+      "path---docs-css-framework-satellites-links-html-b1e71ac84f0521050645.js.map"
     ],
     "path---docs-css-framework-satellites-badge-html": [
-      "path---docs-css-framework-satellites-badge-html-c49e569e9a9cd06f1cce.js",
-      "path---docs-css-framework-satellites-badge-html-c49e569e9a9cd06f1cce.js.map"
+      "path---docs-css-framework-satellites-badge-html-901f34b6fe9b0d40db58.js",
+      "path---docs-css-framework-satellites-badge-html-901f34b6fe9b0d40db58.js.map"
     ],
     "path---docs-css-framework-satellites-list-groups-html": [
-      "path---docs-css-framework-satellites-list-groups-html-9a6c8adb8635de313563.js",
-      "path---docs-css-framework-satellites-list-groups-html-9a6c8adb8635de313563.js.map"
+      "path---docs-css-framework-satellites-list-groups-html-38d62e79c2eee24c40d6.js",
+      "path---docs-css-framework-satellites-list-groups-html-38d62e79c2eee24c40d6.js.map"
+    ],
+    "path---docs-css-framework-satellites-navigation-header-html": [
+      "path---docs-css-framework-satellites-navigation-header-html-8b721874d1853c39fc20.js",
+      "path---docs-css-framework-satellites-navigation-header-html-8b721874d1853c39fc20.js.map"
     ],
     "path---docs-css-framework-page-examples-document-upload-html": [
-      "path---docs-css-framework-page-examples-document-upload-html-e98f01a633b0d02202f1.js",
-      "path---docs-css-framework-page-examples-document-upload-html-e98f01a633b0d02202f1.js.map"
+      "path---docs-css-framework-page-examples-document-upload-html-0e24798f95d08a395436.js",
+      "path---docs-css-framework-page-examples-document-upload-html-0e24798f95d08a395436.js.map"
     ]
   }
 }
