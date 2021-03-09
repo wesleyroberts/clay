@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.25.1](https://github.com/liferay/clay/compare/v3.25.0...v3.25.1) (2021-03-05)
+
+### Bug Fixes
+
+-   **@clayui/color-picker:** RGB inputs should only accept numeric values from 0 to 255 ([4a7db84](https://github.com/liferay/clay/commit/4a7db845ac0a08919c523e4b4d77f00aa2c929bb))
+-   **@clayui/color-picker:** use isomorphic helper for useLayoutEffect ([42c069e](https://github.com/liferay/clay/commit/42c069ed866160f10cd9159345e59a62db473d83))
+
+# [3.25.0](https://github.com/liferay/clay/compare/v3.24.1...v3.25.0) (2021-02-23)
+
+### Bug Fixes
+
+-   **@clayui/color-picker:** remove last-row classes and API that was added on accident ([d4cb8e8](https://github.com/liferay/clay/commit/d4cb8e8))
+
+# [3.5.0](https://github.com/liferay/clay/compare/@clayui/color-picker@3.4.5...@clayui/color-picker@3.5.0) (2021-02-11)
+
+### Features
+
+-   **@clayui/color-picker:** add API to show both default colors and custom colors ([d149fc1](https://github.com/liferay/clay/commit/d149fc1))
+-   **@clayui/color-picker:** update markup for hybrid color-picker ([de4e90f](https://github.com/liferay/clay/commit/de4e90f))
+
+## [3.4.5](https://github.com/liferay/clay/compare/@clayui/color-picker@3.4.4...@clayui/color-picker@3.4.5) (2021-01-27)
+
+### Bug Fixes
+
+-   **@clayui/color-picker:** use ClayButton instead of button element ([18355fd](https://github.com/liferay/clay/commit/18355fd))
+
+## [3.4.4](https://github.com/liferay/clay/compare/@clayui/color-picker@3.4.3...@clayui/color-picker@3.4.4) (2021-01-13)
+
+**Note:** Version bump only for package @clayui/color-picker
+
 ## [3.4.3](https://github.com/liferay/clay/compare/@clayui/color-picker@3.4.2...@clayui/color-picker@3.4.3) (2020-12-29)
 
 **Note:** Version bump only for package @clayui/color-picker

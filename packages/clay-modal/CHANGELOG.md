@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.8.5](https://github.com/liferay/clay/compare/@clayui/modal@3.8.4...@clayui/modal@3.8.5) (2021-02-11)
+
+**Note:** Version bump only for package @clayui/modal
+
+## [3.8.4](https://github.com/liferay/clay/compare/@clayui/modal@3.8.3...@clayui/modal@3.8.4) (2021-01-27)
+
+**Note:** Version bump only for package @clayui/modal
+
+## [3.8.3](https://github.com/liferay/clay/compare/@clayui/modal@3.8.2...@clayui/modal@3.8.3) (2021-01-13)
+
+**Note:** Version bump only for package @clayui/modal
+
 ## [3.8.2](https://github.com/liferay/clay/compare/@clayui/modal@3.8.0...@clayui/modal@3.8.2) (2020-12-16)
 
 **Note:** Version bump only for package @clayui/modal

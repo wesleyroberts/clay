@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.25.0](https://github.com/liferay/clay/compare/v3.24.1...v3.25.0) (2021-02-23)
+
+### Features
+
+-   **@clayui/panel:** add 'show' class to collapsable panel's button ([1e7f64a](https://github.com/liferay/clay/commit/1e7f64a))
+
+## [3.3.6](https://github.com/liferay/clay/compare/@clayui/panel@3.3.5...@clayui/panel@3.3.6) (2021-02-11)
+
+**Note:** Version bump only for package @clayui/panel
+
+## [3.3.5](https://github.com/liferay/clay/compare/@clayui/panel@3.3.4...@clayui/panel@3.3.5) (2021-01-27)
+
+### Bug Fixes
+
+-   **@clayui/panel:** make sure <button> has a type ([361f151](https://github.com/liferay/clay/commit/361f151))
+
+## [3.3.4](https://github.com/liferay/clay/compare/@clayui/panel@3.3.3...@clayui/panel@3.3.4) (2021-01-14)
+
+### Bug Fixes
+
+-   **@clayui/panel:** allow for the panel to be expanded on first render ([28b7ae4](https://github.com/liferay/clay/commit/28b7ae4))
+
+## [3.3.3](https://github.com/liferay/clay/compare/@clayui/panel@3.3.2...@clayui/panel@3.3.3) (2021-01-13)
+
+### Bug Fixes
+
+-   **@clayui/panel:** add ability to be a controlled component for expanding ([6bf6358](https://github.com/liferay/clay/commit/6bf6358))
+
 ## [3.3.2](https://github.com/liferay/clay/compare/@clayui/panel@3.3.0...@clayui/panel@3.3.2) (2020-12-16)
 
 **Note:** Version bump only for package @clayui/panel

@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.25.1](https://github.com/liferay/clay/compare/v3.25.0...v3.25.1) (2021-03-05)
+
+**Note:** Version bump only for package @clayui/list
+
+# [3.25.0](https://github.com/liferay/clay/compare/v3.24.1...v3.25.0) (2021-02-23)
+
+**Note:** Version bump only for package @clayui/list
+
+## [3.4.7](https://github.com/liferay/clay/compare/@clayui/list@3.4.6...@clayui/list@3.4.7) (2021-02-11)
+
+**Note:** Version bump only for package @clayui/list
+
+## [3.4.6](https://github.com/liferay/clay/compare/@clayui/list@3.4.5...@clayui/list@3.4.6) (2021-01-27)
+
+### Bug Fixes
+
+-   **@clayui/list:** make sure <button> has a type ([a27ce37](https://github.com/liferay/clay/commit/a27ce37))
+
+## [3.4.5](https://github.com/liferay/clay/compare/@clayui/list@3.4.4...@clayui/list@3.4.5) (2021-01-13)
+
+**Note:** Version bump only for package @clayui/list
+
 ## [3.4.4](https://github.com/liferay/clay/compare/@clayui/list@3.4.3...@clayui/list@3.4.4) (2020-12-29)
 
 **Note:** Version bump only for package @clayui/list

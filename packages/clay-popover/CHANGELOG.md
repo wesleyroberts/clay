@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.5.5](https://github.com/liferay/clay/compare/@clayui/popover@3.5.4...@clayui/popover@3.5.5) (2021-02-11)
+
+**Note:** Version bump only for package @clayui/popover
+
+## [3.5.4](https://github.com/liferay/clay/compare/@clayui/popover@3.5.3...@clayui/popover@3.5.4) (2021-01-27)
+
+**Note:** Version bump only for package @clayui/popover
+
+## [3.5.3](https://github.com/liferay/clay/compare/@clayui/popover@3.5.2...@clayui/popover@3.5.3) (2021-01-13)
+
+**Note:** Version bump only for package @clayui/popover
+
 ## [3.5.2](https://github.com/liferay/clay/compare/@clayui/popover@3.5.0...@clayui/popover@3.5.2) (2020-12-16)
 
 **Note:** Version bump only for package @clayui/popover

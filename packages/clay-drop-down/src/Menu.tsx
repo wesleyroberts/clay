@@ -8,6 +8,8 @@ import classNames from 'classnames';
 import domAlign from 'dom-align';
 import React, {useEffect, useLayoutEffect, useRef} from 'react';
 
+import observeRect from './observeRect';
+
 export const Align = {
 	BottomCenter: 4,
 	BottomLeft: 5,
@@ -121,6 +123,11 @@ interface IProps extends React.HTMLAttributes<HTMLDivElement> {
 	alignmentPosition?: number | TPointOptions;
 
 	/**
+	 * Flag to indicate if clicking outside of the menu should automatically close it.
+	 */
+	closeOnClickOutside?: boolean;
+
+	/**
 	 * Flag to indicate if menu is displaying a clay-icon on the left.
 	 */
 	hasLeftSymbols?: boolean;
@@ -129,6 +136,11 @@ interface IProps extends React.HTMLAttributes<HTMLDivElement> {
 	 * Flag to indicate if menu is displaying a clay-icon on the right.
 	 */
 	hasRightSymbols?: boolean;
+
+	/**
+	 * Adds utility class name `dropdown-menu-height-${height}`
+	 */
+	height?: 'auto';
 
 	/**
 	 * Element ref to call focus() on after menu is closed via Escape key
@@ -144,7 +156,15 @@ interface IProps extends React.HTMLAttributes<HTMLDivElement> {
 	 * Callback function for when active state changes.
 	 */
 	onSetActive: (val: boolean) => void;
+
+	/**
+	 * `dropdown-menu-width-${width}`
+	 */
+	width?: 'sm' | 'auto';
 }
+
+const useIsomorphicLayoutEffect =
+	typeof window === 'undefined' ? useEffect : useLayoutEffect;
 
 const ClayDropDownMenu = React.forwardRef<HTMLDivElement, IProps>(
 	(
@@ -155,8 +175,10 @@ const ClayDropDownMenu = React.forwardRef<HTMLDivElement, IProps>(
 			autoBestAlign = true,
 			children,
 			className,
+			closeOnClickOutside = true,
 			hasLeftSymbols,
 			hasRightSymbols,
+			height,
 			focusRefOnEsc,
 			offsetFn = (points) =>
 				OFFSET_MAP[points.join('') as keyof typeof OFFSET_MAP] as [
@@ -164,6 +186,7 @@ const ClayDropDownMenu = React.forwardRef<HTMLDivElement, IProps>(
 					number
 				],
 			onSetActive,
+			width,
 			...otherProps
 		}: IProps,
 		// TS + refs don't always play nicely together, which is why it is casted
@@ -174,31 +197,33 @@ const ClayDropDownMenu = React.forwardRef<HTMLDivElement, IProps>(
 		const subPortalRef = useRef<HTMLDivElement | null>(null);
 
 		useEffect(() => {
-			const handleClick = (event: MouseEvent) => {
-				const nodeRefs = [alignElementRef, subPortalRef];
-				const nodes: Array<Node> = (Array.isArray(nodeRefs)
-					? nodeRefs
-					: [nodeRefs]
-				)
-					.filter((ref) => ref.current)
-					.map((ref) => ref.current!);
-
-				if (
-					event.target instanceof Node &&
-					!nodes.find((element) =>
-						element.contains(event.target as Node)
+			if (closeOnClickOutside) {
+				const handleClick = (event: MouseEvent) => {
+					const nodeRefs = [alignElementRef, subPortalRef];
+					const nodes: Array<Node> = (Array.isArray(nodeRefs)
+						? nodeRefs
+						: [nodeRefs]
 					)
-				) {
-					onSetActive(false);
-				}
-			};
+						.filter((ref) => ref.current)
+						.map((ref) => ref.current!);
 
-			window.addEventListener('mousedown', handleClick);
+					if (
+						event.target instanceof Node &&
+						!nodes.find((element) =>
+							element.contains(event.target as Node)
+						)
+					) {
+						onSetActive(false);
+					}
+				};
 
-			return () => {
-				window.removeEventListener('mousedown', handleClick);
-			};
-		}, []);
+				window.addEventListener('mousedown', handleClick);
+
+				return () => {
+					window.removeEventListener('mousedown', handleClick);
+				};
+			}
+		}, [closeOnClickOutside]);
 
 		useEffect(() => {
 			const handleEsc = (event: KeyboardEvent) => {
@@ -222,12 +247,8 @@ const ClayDropDownMenu = React.forwardRef<HTMLDivElement, IProps>(
 			};
 		}, [active]);
 
-		useLayoutEffect(() => {
-			if (
-				alignElementRef.current &&
-				(ref as React.RefObject<HTMLDivElement>).current &&
-				active
-			) {
+		const align = () => {
+			if (alignElementRef && alignElementRef.current) {
 				let points = alignmentPosition;
 
 				if (typeof points === 'number') {
@@ -236,20 +257,36 @@ const ClayDropDownMenu = React.forwardRef<HTMLDivElement, IProps>(
 					);
 				}
 
-				domAlign(
-					(ref as React.RefObject<HTMLElement>).current!,
-					alignElementRef.current,
-					{
-						offset: offsetFn(points),
-						overflow: {
-							adjustX: autoBestAlign,
-							adjustY: autoBestAlign,
-						},
-						points,
-					}
-				);
+				if ((ref as React.RefObject<HTMLElement>).current) {
+					domAlign(
+						(ref as React.RefObject<HTMLElement>).current!,
+						alignElementRef.current,
+						{
+							offset: offsetFn(points),
+							overflow: {
+								adjustX: autoBestAlign,
+								adjustY: autoBestAlign,
+							},
+							points,
+						}
+					);
+				}
+			}
+		};
+
+		useIsomorphicLayoutEffect(() => {
+			if (active) {
+				align();
 			}
 		}, [active]);
+
+		useEffect(() => {
+			if (alignElementRef && alignElementRef.current) {
+				const unobserve = observeRect(alignElementRef.current, align);
+
+				return unobserve;
+			}
+		}, []);
 
 		return (
 			<ClayPortal subPortalRef={subPortalRef}>
@@ -259,6 +296,8 @@ const ClayDropDownMenu = React.forwardRef<HTMLDivElement, IProps>(
 						className={classNames('dropdown-menu', className, {
 							'dropdown-menu-indicator-end': hasRightSymbols,
 							'dropdown-menu-indicator-start': hasLeftSymbols,
+							[`dropdown-menu-height-${height}`]: height,
+							[`dropdown-menu-width-${width}`]: width,
 							show: active,
 						})}
 						ref={ref}

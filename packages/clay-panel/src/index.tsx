@@ -3,10 +3,16 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
+import ClayButton from '@clayui/button';
 import ClayIcon from '@clayui/icon';
-import {useTransitionHeight} from '@clayui/shared';
+import {
+	TInternalStateOnChange,
+	setElementFullHeight,
+	useInternalState,
+} from '@clayui/shared';
 import classNames from 'classnames';
 import React from 'react';
+import {CSSTransition} from 'react-transition-group';
 
 import ClayPanelBody from './Body';
 import ClayPanelFooter from './Footer';
@@ -41,6 +47,16 @@ interface IProps extends React.HTMLAttributes<HTMLDivElement> {
 	displayType?: 'unstyled' | 'secondary';
 
 	/**
+	 * Determines if menu is expanded or not
+	 */
+	expanded?: boolean;
+
+	/**
+	 * Callback for when dropdown changes its active state
+	 */
+	onExpandedChange?: TInternalStateOnChange<boolean>;
+
+	/**
 	 * Flag to toggle collapse icon visibility when `collapsable` is true.
 	 */
 	showCollapseIcon?: boolean;
@@ -65,23 +81,17 @@ const ClayPanel: React.FunctionComponent<IProps> & {
 	defaultExpanded = false,
 	displayTitle,
 	displayType,
+	expanded,
+	onExpandedChange,
 	showCollapseIcon = true,
 	spritemap,
 	...otherProps
 }: IProps) => {
-	const panelRef = React.useRef<HTMLDivElement>(null);
-	const [expanded, setExpaned] = React.useState<boolean>(defaultExpanded);
-
-	const {animate, transitioning} = useTransitionHeight(
-		expanded,
-		setExpaned,
-		panelRef
-	);
-
-	const showIconCollapsed = !(
-		(!expanded && transitioning) ||
-		(expanded && !transitioning)
-	);
+	const [internalExpanded, setInternalExpanded] = useInternalState({
+		initialValue: defaultExpanded,
+		onChange: onExpandedChange,
+		value: expanded,
+	});
 
 	return (
 		<div
@@ -110,17 +120,19 @@ const ClayPanel: React.FunctionComponent<IProps> & {
 
 			{collapsable && (
 				<>
-					<button
-						aria-expanded={expanded}
+					<ClayButton
+						aria-expanded={internalExpanded}
 						className={classNames(
-							'btn btn-unstyled panel-header panel-header-link',
+							'panel-header panel-header-link',
 							{
 								'collapse-icon': showCollapseIcon,
 								'collapse-icon-middle': showCollapseIcon,
-								collapsed: showIconCollapsed,
+								collapsed: !internalExpanded,
+								show: internalExpanded,
 							}
 						)}
-						onClick={animate}
+						displayType="unstyled"
+						onClick={() => setInternalExpanded(!internalExpanded)}
 						role="tab"
 					>
 						{displayTitle &&
@@ -148,23 +160,37 @@ const ClayPanel: React.FunctionComponent<IProps> & {
 								</span>
 							</>
 						)}
-					</button>
+					</ClayButton>
 
-					<div
+					<CSSTransition
 						className={classNames(
 							'panel-collapse',
 							collapseClassNames,
-							{
-								collapse: !transitioning,
-								collapsing: transitioning,
-								show: expanded,
-							}
+							{collapse: !internalExpanded}
 						)}
-						ref={panelRef}
+						classNames={{
+							enter: 'collapsing',
+							enterActive: `show`,
+							enterDone: 'show',
+							exit: `show`,
+							exitActive: 'collapsing',
+						}}
+						in={internalExpanded}
+						onEnter={(el: HTMLElement) =>
+							el.setAttribute('style', `height: 0px`)
+						}
+						onEntering={(el: HTMLElement) =>
+							setElementFullHeight(el)
+						}
+						onExit={(el) => setElementFullHeight(el)}
+						onExiting={(el) =>
+							el.setAttribute('style', `height: 0px`)
+						}
 						role="tabpanel"
+						timeout={250}
 					>
-						{children}
-					</div>
+						<div>{children}</div>
+					</CSSTransition>
 				</>
 			)}
 		</div>

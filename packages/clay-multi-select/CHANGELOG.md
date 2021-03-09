@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.25.1](https://github.com/liferay/clay/compare/v3.25.0...v3.25.1) (2021-03-05)
+
+### Bug Fixes
+
+-   **@clayui/multi-select:** use isomorphic helper for useLayoutEffect ([f25668d](https://github.com/liferay/clay/commit/f25668d92e691ba96b29f78669304169c48675f1))
+
+# [3.25.0](https://github.com/liferay/clay/compare/v3.24.1...v3.25.0) (2021-02-23)
+
+**Note:** Version bump only for package @clayui/multi-select
+
+## [3.9.4](https://github.com/liferay/clay/compare/@clayui/multi-select@3.9.3...@clayui/multi-select@3.9.4) (2021-02-11)
+
+**Note:** Version bump only for package @clayui/multi-select
+
+## [3.9.3](https://github.com/liferay/clay/compare/@clayui/multi-select@3.9.2...@clayui/multi-select@3.9.3) (2021-01-27)
+
+**Note:** Version bump only for package @clayui/multi-select
+
+## [3.9.2](https://github.com/liferay/clay/compare/@clayui/multi-select@3.9.1...@clayui/multi-select@3.9.2) (2021-01-13)
+
+### Bug Fixes
+
+-   **@clayui/label:** close icon should be times-small ([5181335](https://github.com/liferay/clay/commit/5181335))
+
 ## [3.9.1](https://github.com/liferay/clay/compare/@clayui/multi-select@3.9.0...@clayui/multi-select@3.9.1) (2020-12-29)
 
 **Note:** Version bump only for package @clayui/multi-select

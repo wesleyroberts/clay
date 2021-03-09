@@ -5,6 +5,7 @@
 
 import ClayForm, {ClayInput} from '@clayui/form';
 import Icon from '@clayui/icon';
+import {TInternalStateOnChange, useInternalState} from '@clayui/shared';
 import React from 'react';
 import tinycolor from 'tinycolor2';
 
@@ -41,6 +42,26 @@ const RGBInput: React.FunctionComponent<IRGBInputProps> = ({
 	const inputRef = React.useRef(null);
 	const [inputValue, setInputValue] = React.useState(value);
 
+	const handleOnChange = (event: any) => {
+		const value = event.target.value;
+
+		if (value === '') {
+			return;
+		}
+
+		let newVal = Number(value);
+
+		if (newVal < 0) {
+			newVal = 0;
+		} else if (newVal > 255) {
+			newVal = 255;
+		}
+
+		setInputValue(newVal);
+
+		onChange({[name]: newVal});
+	};
+
 	React.useEffect(() => {
 		if (document.activeElement !== inputRef.current) {
 			setInputValue(value);
@@ -54,15 +75,11 @@ const RGBInput: React.FunctionComponent<IRGBInputProps> = ({
 					<ClayInput
 						data-testid={`${name}Input`}
 						insetBefore
-						onChange={(event) => {
-							const newVal = Number(event.target.value);
-
-							setInputValue(newVal);
-
-							onChange({[name]: newVal});
-						}}
+						max="255"
+						min="0"
+						onChange={handleOnChange}
 						ref={inputRef}
-						type="text"
+						type="number"
 						value={inputValue}
 					/>
 					<ClayInput.GroupInsetItem before tag="label">
@@ -104,6 +121,10 @@ interface IProps {
 	 * Path to the location of the spritemap resource.
 	 */
 	spritemap?: string;
+
+	editorActive?: boolean;
+
+	onEditorActiveChange?: TInternalStateOnChange<boolean>;
 }
 
 /**
@@ -111,15 +132,21 @@ interface IProps {
  */
 const ClayColorPickerCustom: React.FunctionComponent<IProps> = ({
 	colors,
+	editorActive,
 	label,
 	onChange,
 	onColorsChange,
+	onEditorActiveChange,
 	showPalette,
 	spritemap,
 }) => {
 	const inputRef = React.useRef(null);
 	const [activeSplotchIndex, setActiveSplotchIndex] = React.useState(0);
-	const [editorActive, setEditorActive] = React.useState(!showPalette);
+	const [internalEditorActive, setInternalEditorActive] = useInternalState({
+		initialValue: !showPalette,
+		onChange: onEditorActiveChange,
+		value: editorActive,
+	});
 
 	const color = tinycolor(colors[activeSplotchIndex]);
 
@@ -166,14 +193,16 @@ const ClayColorPickerCustom: React.FunctionComponent<IProps> = ({
 					{showPalette && (
 						<button
 							className={`${
-								editorActive ? 'close' : ''
+								internalEditorActive ? 'close' : ''
 							} component-action`}
-							onClick={() => setEditorActive(!editorActive)}
+							onClick={() =>
+								setInternalEditorActive(!internalEditorActive)
+							}
 							type="button"
 						>
 							<Icon
 								spritemap={spritemap}
-								symbol={editorActive ? 'times' : 'drop'}
+								symbol={internalEditorActive ? 'times' : 'drop'}
 							/>
 						</button>
 					)}
@@ -188,7 +217,7 @@ const ClayColorPickerCustom: React.FunctionComponent<IProps> = ({
 								active={i === activeSplotchIndex}
 								onClick={() => {
 									if (hex === 'FFFFFF') {
-										setEditorActive(true);
+										setInternalEditorActive(true);
 									}
 
 									setActiveSplotchIndex(i);

@@ -1,5 +1,301 @@
 # Change Log
 
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [3.25.1](https://github.com/liferay/clay/compare/v3.25.0...v3.25.1) (2021-03-05)
+
+### Bug Fixes
+
+-   **@clayui/charts:** use isomorphic helper for useLayoutEffect ([6599030](https://github.com/liferay/clay/commit/6599030ee4b9c615db73dd8dc47302ff911d547b))
+-   **@clayui/color-picker:** RGB inputs should only accept numeric values from 0 to 255 ([4a7db84](https://github.com/liferay/clay/commit/4a7db845ac0a08919c523e4b4d77f00aa2c929bb))
+-   **@clayui/color-picker:** use isomorphic helper for useLayoutEffect ([42c069e](https://github.com/liferay/clay/commit/42c069ed866160f10cd9159345e59a62db473d83))
+-   **@clayui/css:** Atlas Custom Checkbox use hr icon for indeterminate indicator ([a894c5b](https://github.com/liferay/clay/commit/a894c5bd1fe500894d55bfd656efde142ba81db6))
+-   **@clayui/css:** Forms `form-control-tag-group component-action` should be height 100% ([4b4b140](https://github.com/liferay/clay/commit/4b4b140b87019d9fa4c00186219090524dce1fcd))
+-   **@clayui/css:** SVG Icons updates `hr` icon per Lexicon ([949944c](https://github.com/liferay/clay/commit/949944ccaac1b21091628b15cedd3b7ea96287af))
+-   **@clayui/drop-down:** make sure element exists before passing to domAlign ([80a5395](https://github.com/liferay/clay/commit/80a53956030c3dd6e1172fde2b808c26f784e120))
+-   **@clayui/drop-down:** use isomorphic helper for useLayoutEffect ([fd82b87](https://github.com/liferay/clay/commit/fd82b87d2b47fd614c698ce7ef0be926dfcafc16))
+-   **@clayui/multi-select:** use isomorphic helper for useLayoutEffect ([f25668d](https://github.com/liferay/clay/commit/f25668d92e691ba96b29f78669304169c48675f1))
+-   **@clayui/slider:** use isomorphic helper for useLayoutEffect ([33910de](https://github.com/liferay/clay/commit/33910dea1c6fcad8d1149d03d4c6ae92796123f1))
+
+# [3.25.0](https://github.com/liferay/clay/compare/v3.24.1...v3.25.0) (2021-02-23)
+
+### Bug Fixes
+
+-   **@clayui/color-picker:** remove last-row classes and API that was added on accident ([d4cb8e8](https://github.com/liferay/clay/commit/d4cb8e8))
+-   **@clayui/css:** Global Functions moves generated SVG icons Sass map to separate file `_lx-icons-generated.scss` ([7ffc523](https://github.com/liferay/clay/commit/7ffc523))
+
+### Features
+
+-   **@clayui/card:** add active state for card when it is selected ([607da9d](https://github.com/liferay/clay/commit/607da9d))
+-   **@clayui/drop-down:** add util for aligning dropdown on scroll ([09dc506](https://github.com/liferay/clay/commit/09dc506))
+-   **@clayui/panel:** add 'show' class to collapsable panel's button ([1e7f64a](https://github.com/liferay/clay/commit/1e7f64a))
+
+## _Note: we changed our release process from [independent](https://github.com/lerna/lerna#independent-mode) to [fixed](https://github.com/lerna/lerna#fixedlocked-mode-default) at this point._
+
+## 2021-2-11
+
+### @clayui/autocomplete ([3.2.6](https://github.com/liferay/clay/compare/@clayui/autocomplete@3.2.5...@clayui/autocomplete@3.2.6))
+
+**Note:** Version bump only for package @clayui/autocomplete
+
+### @clayui/breadcrumb ([3.3.6](https://github.com/liferay/clay/compare/@clayui/breadcrumb@3.3.5...@clayui/breadcrumb@3.3.6))
+
+**Note:** Version bump only for package @clayui/breadcrumb
+
+### @clayui/card ([3.6.6](https://github.com/liferay/clay/compare/@clayui/card@3.6.5...@clayui/card@3.6.6))
+
+**Note:** Version bump only for package @clayui/card
+
+### @clayui/color-picker ([3.5.0](https://github.com/liferay/clay/compare/@clayui/color-picker@3.4.5...@clayui/color-picker@3.5.0))
+
+#### Features
+
+-   add API to show both default colors and custom colors ([d149fc1](https://github.com/liferay/clay/commit/d149fc1))
+-   update markup for hybrid color-picker ([de4e90f](https://github.com/liferay/clay/commit/de4e90f))
+
+### @clayui/css ([3.24.1](https://github.com/liferay/clay/tree/master/packages/clay-css/compare/@clayui/css@3.24.0...@clayui/css@3.24.1))
+
+#### Bug Fixes
+
+-   Atlas Alert close font-size should be 16px ([245eac5](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/245eac5)), closes [#3877](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3877)
+-   Atlas Clay Color change close button icon to be 16px ([2309d7a](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/2309d7a)), closes [#3878](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3878)
+-   Atlas Select Element IE11 should hide default icon and use caret-double-l instead ([6623ff7](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/6623ff7)), closes [#3922](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3922)
+-   Clay Color adjust spacing to be the same as Lexicon specs. See https://docs.google.com/document/d/1IUGl5VOWh6lqRa1baRoshVcytc8XbqVMkk30vRW4SM8/edit#heading=h.o2fss76woci2 ([704d25d](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/704d25d))
+
+### @clayui/data-provider ([3.3.10](https://github.com/liferay/clay/compare/@clayui/data-provider@3.3.9...@clayui/data-provider@3.3.10))
+
+**Note:** Version bump only for package @clayui/data-provider
+
+### @clayui/date-picker ([3.8.0](https://github.com/liferay/clay/compare/@clayui/date-picker@3.7.1...@clayui/date-picker@3.8.0))
+
+#### Bug Fixes
+
+-   update timepicker format ([2c4f364](https://github.com/liferay/clay/commit/2c4f364))
+
+#### Features
+
+-   **@clayui/color-picker:** add API to show both default colors and custom colors ([d149fc1](https://github.com/liferay/clay/commit/d149fc1))
+
+### @clayui/drop-down ([3.9.1](https://github.com/liferay/clay/compare/@clayui/drop-down@3.9.0...@clayui/drop-down@3.9.1))
+
+**Note:** Version bump only for package @clayui/drop-down
+
+### @clayui/form ([3.14.4](https://github.com/liferay/clay/compare/@clayui/form@3.14.3...@clayui/form@3.14.4))
+
+**Note:** Version bump only for package @clayui/form
+
+### @clayui/list ([3.4.7](https://github.com/liferay/clay/compare/@clayui/list@3.4.6...@clayui/list@3.4.7))
+
+**Note:** Version bump only for package @clayui/list
+
+### @clayui/localized-input ([3.2.6](https://github.com/liferay/clay/compare/@clayui/localized-input@3.2.5...@clayui/localized-input@3.2.6))
+
+**Note:** Version bump only for package @clayui/localized-input
+
+### @clayui/modal ([3.8.5](https://github.com/liferay/clay/compare/@clayui/modal@3.8.4...@clayui/modal@3.8.5))
+
+**Note:** Version bump only for package @clayui/modal
+
+### @clayui/multi-select ([3.9.4](https://github.com/liferay/clay/compare/@clayui/multi-select@3.9.3...@clayui/multi-select@3.9.4))
+
+**Note:** Version bump only for package @clayui/multi-select
+
+### @clayui/multi-step-nav ([3.3.6](https://github.com/liferay/clay/compare/@clayui/multi-step-nav@3.3.5...@clayui/multi-step-nav@3.3.6))
+
+**Note:** Version bump only for package @clayui/multi-step-nav
+
+### @clayui/nav ([3.4.5](https://github.com/liferay/clay/compare/@clayui/nav@3.4.4...@clayui/nav@3.4.5))
+
+**Note:** Version bump only for package @clayui/nav
+
+### @clayui/navigation-bar ([3.3.5](https://github.com/liferay/clay/compare/@clayui/navigation-bar@3.3.4...@clayui/navigation-bar@3.3.5))
+
+**Note:** Version bump only for package @clayui/navigation-bar
+
+### @clayui/pagination-bar ([3.2.6](https://github.com/liferay/clay/compare/@clayui/pagination-bar@3.2.5...@clayui/pagination-bar@3.2.6))
+
+**Note:** Version bump only for package @clayui/pagination-bar
+
+### @clayui/pagination ([3.3.6](https://github.com/liferay/clay/compare/@clayui/pagination@3.3.5...@clayui/pagination@3.3.6))
+
+**Note:** Version bump only for package @clayui/pagination
+
+### @clayui/panel ([3.3.6](https://github.com/liferay/clay/compare/@clayui/panel@3.3.5...@clayui/panel@3.3.6))
+
+**Note:** Version bump only for package @clayui/panel
+
+### @clayui/popover ([3.5.5](https://github.com/liferay/clay/compare/@clayui/popover@3.5.4...@clayui/popover@3.5.5))
+
+**Note:** Version bump only for package @clayui/popover
+
+### @clayui/shared ([3.5.1](https://github.com/liferay/clay/compare/@clayui/shared@3.5.0...@clayui/shared@3.5.1))
+
+**Note:** Version bump only for package @clayui/shared
+
+### @clayui/tabs ([3.3.5](https://github.com/liferay/clay/compare/@clayui/tabs@3.3.4...@clayui/tabs@3.3.5))
+
+**Note:** Version bump only for package @clayui/tabs
+
+### @clayui/time-picker ([3.2.6](https://github.com/liferay/clay/compare/@clayui/time-picker@3.2.5...@clayui/time-picker@3.2.6))
+
+#### Bug Fixes
+
+-   stop propagating key events in time picker ([0e0d89b](https://github.com/liferay/clay/commit/0e0d89b))
+
+### @clayui/toolbar ([3.0.6](https://github.com/liferay/clay/compare/@clayui/toolbar@3.0.5...@clayui/toolbar@3.0.6))
+
+**Note:** Version bump only for package @clayui/toolbar
+
+### @clayui/tooltip ([3.4.5](https://github.com/liferay/clay/compare/@clayui/tooltip@3.4.4...@clayui/tooltip@3.4.5))
+
+**Note:** Version bump only for package @clayui/tooltip
+
+### @clayui/upper-toolbar ([3.1.14](https://github.com/liferay/clay/compare/@clayui/upper-toolbar@3.1.13...@clayui/upper-toolbar@3.1.14))
+
+**Note:** Version bump only for package @clayui/upper-toolbar
+
+## 2021-1-27
+
+### @clayui/autocomplete ([3.2.5](https://github.com/liferay/clay/compare/@clayui/autocomplete@3.2.4...@clayui/autocomplete@3.2.5))
+
+**Note:** Version bump only for package @clayui/autocomplete
+
+### @clayui/breadcrumb ([3.3.5](https://github.com/liferay/clay/compare/@clayui/breadcrumb@3.3.4...@clayui/breadcrumb@3.3.5))
+
+**Note:** Version bump only for package @clayui/breadcrumb
+
+### @clayui/button ([3.6.0](https://github.com/liferay/clay/compare/@clayui/button@3.5.0...@clayui/button@3.6.0))
+
+#### Features
+
+-   add api for stacking button group vertically ([e6d457b](https://github.com/liferay/clay/commit/e6d457b))
+-   add functionality to pass in null for displayType so that only 'btn' is added ([0cac172](https://github.com/liferay/clay/commit/0cac172))
+
+### @clayui/card ([3.6.5](https://github.com/liferay/clay/compare/@clayui/card@3.6.4...@clayui/card@3.6.5))
+
+**Note:** Version bump only for package @clayui/card
+
+### @clayui/color-picker ([3.4.5](https://github.com/liferay/clay/compare/@clayui/color-picker@3.4.4...@clayui/color-picker@3.4.5))
+
+#### Bug Fixes
+
+-   use ClayButton instead of button element ([18355fd](https://github.com/liferay/clay/commit/18355fd))
+
+### @clayui/css ([3.24.0](https://github.com/liferay/clay/tree/master/packages/clay-css/compare/@clayui/css@3.23.0...@clayui/css@3.24.0))
+
+#### Bug Fixes
+
+-   Absorb Bootstrap 4 variables into Clay CSS ([d4be0ec](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/d4be0ec))
+-   Atlas `color-yiq` function not useable in Atlas variables due to `$yiq-contrasted-threshold` undefined ([2035a8b](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/2035a8b)), closes [#3708](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3708)
+-   Atlas Toggle Switch change checked state button icon color to primary ([de9ca0b](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/de9ca0b)), closes [#3872](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3872)
+-   List Group adds missing disabled styles for list-group-item ([bdc3acf](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/bdc3acf))
+-   Removes Bootstrap 4 variable overwrites, still keeping this file to prevent Sass import errors from custom imports ([1232870](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/1232870))
+-   Removes imports for Bootstrap 4 variables and variable overwrites ([bd0f614](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/bd0f614))
+-   Tables set background-color on thead, tbody, tfoot for Table and Table List. This is for a Chrome 87 bug. ([3b0badb](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/3b0badb)), closes [#3847](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3847)
+
+#### Features
+
+-   Atlas Toggle Switch make it 40px by 24px in desktop views ([50c5c6d](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/50c5c6d)), closes [#3835](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3835)
+-   SVG Icons adds cursor.svg ([afbb1f0](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/afbb1f0))
+
+### @clayui/data-provider ([3.3.9](https://github.com/liferay/clay/compare/@clayui/data-provider@3.3.8...@clayui/data-provider@3.3.9))
+
+**Note:** Version bump only for package @clayui/data-provider
+
+### @clayui/date-picker ([3.7.1](https://github.com/liferay/clay/compare/@clayui/date-picker@3.7.0...@clayui/date-picker@3.7.1))
+
+**Note:** Version bump only for package @clayui/date-picker
+
+### @clayui/drop-down ([3.9.0](https://github.com/liferay/clay/compare/@clayui/drop-down@3.8.4...@clayui/drop-down@3.9.0))
+
+#### Features
+
+-   add api for controlling the active state of the menu ([28e5191](https://github.com/liferay/clay/commit/28e5191))
+-   add props for making menu different widths ([80396d8](https://github.com/liferay/clay/commit/80396d8))
+
+### @clayui/form ([3.14.3](https://github.com/liferay/clay/compare/@clayui/form@3.14.2...@clayui/form@3.14.3))
+
+**Note:** Version bump only for package @clayui/form
+
+### @clayui/list ([3.4.6](https://github.com/liferay/clay/compare/@clayui/list@3.4.5...@clayui/list@3.4.6))
+
+#### Bug Fixes
+
+-   make sure <button> has a type ([a27ce37](https://github.com/liferay/clay/commit/a27ce37))
+
+### @clayui/localized-input ([3.2.5](https://github.com/liferay/clay/compare/@clayui/localized-input@3.2.4...@clayui/localized-input@3.2.5))
+
+**Note:** Version bump only for package @clayui/localized-input
+
+### @clayui/modal ([3.8.4](https://github.com/liferay/clay/compare/@clayui/modal@3.8.3...@clayui/modal@3.8.4))
+
+**Note:** Version bump only for package @clayui/modal
+
+### @clayui/multi-select ([3.9.3](https://github.com/liferay/clay/compare/@clayui/multi-select@3.9.2...@clayui/multi-select@3.9.3))
+
+**Note:** Version bump only for package @clayui/multi-select
+
+### @clayui/multi-step-nav ([3.3.5](https://github.com/liferay/clay/compare/@clayui/multi-step-nav@3.3.4...@clayui/multi-step-nav@3.3.5))
+
+#### Bug Fixes
+
+-   make sure <button> has a type ([dfd17aa](https://github.com/liferay/clay/commit/dfd17aa))
+
+### @clayui/nav ([3.4.4](https://github.com/liferay/clay/compare/@clayui/nav@3.4.3...@clayui/nav@3.4.4))
+
+**Note:** Version bump only for package @clayui/nav
+
+### @clayui/navigation-bar ([3.3.4](https://github.com/liferay/clay/compare/@clayui/navigation-bar@3.3.3...@clayui/navigation-bar@3.3.4))
+
+**Note:** Version bump only for package @clayui/navigation-bar
+
+### @clayui/pagination-bar ([3.2.5](https://github.com/liferay/clay/compare/@clayui/pagination-bar@3.2.4...@clayui/pagination-bar@3.2.5))
+
+**Note:** Version bump only for package @clayui/pagination-bar
+
+### @clayui/pagination ([3.3.5](https://github.com/liferay/clay/compare/@clayui/pagination@3.3.4...@clayui/pagination@3.3.5))
+
+**Note:** Version bump only for package @clayui/pagination
+
+### @clayui/panel ([3.3.5](https://github.com/liferay/clay/compare/@clayui/panel@3.3.4...@clayui/panel@3.3.5))
+
+#### Bug Fixes
+
+-   make sure <button> has a type ([361f151](https://github.com/liferay/clay/commit/361f151))
+
+### @clayui/popover ([3.5.4](https://github.com/liferay/clay/compare/@clayui/popover@3.5.3...@clayui/popover@3.5.4))
+
+**Note:** Version bump only for package @clayui/popover
+
+### @clayui/shared ([3.5.0](https://github.com/liferay/clay/compare/@clayui/shared@3.4.0...@clayui/shared@3.5.0))
+
+#### Features
+
+-   **@clayui/drop-down:** add api for controlling the active state of the menu ([28e5191](https://github.com/liferay/clay/commit/28e5191))
+
+### @clayui/tabs ([3.3.4](https://github.com/liferay/clay/compare/@clayui/tabs@3.3.3...@clayui/tabs@3.3.4))
+
+**Note:** Version bump only for package @clayui/tabs
+
+### @clayui/time-picker ([3.2.5](https://github.com/liferay/clay/compare/@clayui/time-picker@3.2.4...@clayui/time-picker@3.2.5))
+
+**Note:** Version bump only for package @clayui/time-picker
+
+### @clayui/toolbar ([3.0.5](https://github.com/liferay/clay/compare/@clayui/toolbar@3.0.4...@clayui/toolbar@3.0.5))
+
+**Note:** Version bump only for package @clayui/toolbar
+
+### @clayui/tooltip ([3.4.4](https://github.com/liferay/clay/compare/@clayui/tooltip@3.4.3...@clayui/tooltip@3.4.4))
+
+**Note:** Version bump only for package @clayui/tooltip
+
+### @clayui/upper-toolbar ([3.1.13](https://github.com/liferay/clay/compare/@clayui/upper-toolbar@3.1.12...@clayui/upper-toolbar@3.1.13))
+
+**Note:** Version bump only for package @clayui/upper-toolbar
+
+---
+
 ## v3.x
 
 > A major change from 2.x to 3.x is that we now publish each package independently. Each package now has its own changelog.

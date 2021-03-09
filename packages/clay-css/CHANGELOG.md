@@ -3,6 +3,90 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.25.1](https://github.com/liferay/clay/tree/master/packages/clay-css/compare/v3.25.0...v3.25.1) (2021-03-05)
+
+
+### Bug Fixes
+
+* **@clayui/css:** Atlas Custom Checkbox use hr icon for indeterminate indicator ([a894c5b](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/a894c5bd1fe500894d55bfd656efde142ba81db6))
+* **@clayui/css:** Forms `form-control-tag-group component-action` should be height 100% ([4b4b140](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/4b4b140b87019d9fa4c00186219090524dce1fcd))
+* **@clayui/css:** SVG Icons updates `hr` icon per Lexicon ([949944c](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/949944ccaac1b21091628b15cedd3b7ea96287af))
+
+
+
+
+
+# [3.25.0](https://github.com/liferay/clay/tree/master/packages/clay-css/compare/v3.24.1...v3.25.0) (2021-02-23)
+
+
+### Bug Fixes
+
+* **@clayui/css:** Global Functions moves generated SVG icons Sass map to separate file `_lx-icons-generated.scss` ([7ffc523](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/7ffc523))
+
+
+
+
+
+## [3.24.1](https://github.com/liferay/clay/tree/master/packages/clay-css/compare/@clayui/css@3.24.0...@clayui/css@3.24.1) (2021-02-11)
+
+
+### Bug Fixes
+
+* **@clayui/css:** Atlas Alert close font-size should be 16px ([245eac5](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/245eac5)), closes [#3877](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3877)
+* **@clayui/css:** Atlas Clay Color change close button icon to be 16px ([2309d7a](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/2309d7a)), closes [#3878](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3878)
+* **@clayui/css:** Atlas Select Element IE11 should hide default icon and use caret-double-l instead ([6623ff7](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/6623ff7)), closes [#3922](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3922)
+* **@clayui/css:** Clay Color adjust spacing to be the same as Lexicon specs. See https://docs.google.com/document/d/1IUGl5VOWh6lqRa1baRoshVcytc8XbqVMkk30vRW4SM8/edit#heading=h.o2fss76woci2 ([704d25d](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/704d25d))
+
+
+
+
+
+# [3.24.0](https://github.com/liferay/clay/tree/master/packages/clay-css/compare/@clayui/css@3.23.0...@clayui/css@3.24.0) (2021-01-27)
+
+
+### Bug Fixes
+
+* **@clayui/css:** Absorb Bootstrap 4 variables into Clay CSS ([d4be0ec](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/d4be0ec))
+* **@clayui/css:** Atlas `color-yiq` function not useable in Atlas variables due to `$yiq-contrasted-threshold` undefined ([2035a8b](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/2035a8b)), closes [#3708](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3708)
+* **@clayui/css:** Atlas Toggle Switch change checked state button icon color to primary ([de9ca0b](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/de9ca0b)), closes [#3872](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3872)
+* **@clayui/css:** List Group adds missing disabled styles for list-group-item ([bdc3acf](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/bdc3acf))
+* **@clayui/css:** Removes Bootstrap 4 variable overwrites, still keeping this file to prevent Sass import errors from custom imports ([1232870](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/1232870))
+* **@clayui/css:** Removes imports for Bootstrap 4 variables and variable overwrites ([bd0f614](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/bd0f614))
+* **@clayui/css:** Tables set background-color on thead, tbody, tfoot for Table and Table List. This is for a Chrome 87 bug. ([3b0badb](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/3b0badb)), closes [#3847](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3847)
+
+
+### Features
+
+* **@clayui/css:** Atlas Toggle Switch make it 40px by 24px in desktop views ([50c5c6d](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/50c5c6d)), closes [#3835](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3835)
+* **@clayui/css:** SVG Icons adds cursor.svg ([afbb1f0](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/afbb1f0))
+
+
+
+
+
+# [3.23.0](https://github.com/liferay/clay/tree/master/packages/clay-css/compare/@clayui/css@3.22.1...@clayui/css@3.23.0) (2021-01-13)
+
+
+### Bug Fixes
+
+* **@clayui/css:** Breadcrumbs match sizes to Lexicon specs ([0d471aa](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/0d471aa))
+* **@clayui/css:** Buttons shouldn't inherit `text-transform` from its parent ([a66dcba](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/a66dcba))
+* **@clayui/css:** Component Title used in Sheet should work ([c338b71](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/c338b71))
+* **@clayui/css:** Label use times-small icon and close button should be 16px by 16px ([c2270a9](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/c2270a9))
+* **@clayui/css:** run format ([19ee791](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/19ee791))
+* **@clayui/css:** SVG Icons adds relationship.svg ([6253c68](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/6253c68)), closes [#3873](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3873)
+
+
+### Features
+
+* **@clayui/css:** Sheet adds variants `.sheet-multiple-form` and `.sheet-dataset-content` ([cf4a4d1](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/cf4a4d1))
+* **@clayui/css:** SVG Icons adds google-drive ([3752c14](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/3752c14)), closes [#3869](https://github.com/liferay/clay/tree/master/packages/clay-css/issues/3869)
+* **@clayui/css:** Utilities adds `.autofit-padded-no-gutters-sm` and placeholder `%autofit-padded-no-gutters-sm` for smaller (4px) gutters between columns ([f0cc8f4](https://github.com/liferay/clay/tree/master/packages/clay-css/commit/f0cc8f4))
+
+
+
+
+
 ## [3.22.1](https://github.com/liferay/clay/tree/master/packages/clay-css/compare/@clayui/css@3.22.0...@clayui/css@3.22.1) (2020-12-29)
 
 
